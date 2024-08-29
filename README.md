@@ -296,9 +296,9 @@ File: 3-quick_sort.c, 3-O
    Score: 0.0% (Checks completed: 0.0%)
    Write a function that sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence
 
-Prototype: void shell_sort(int _array, size_t size);
+Prototype: void shell*sort(int \_array, size_t size);
 You must use the following sequence of intervals (a.k.a the Knuth sequence):
-n+1 = n _ 3 + 1
+n+1 = n * 3 + 1
 1, 4, 13, 40, 121, ...
 You’re expected to print the array each time you decrease the interval (See example below).
 No big O notations of the time complexity of the Shell sort (Knuth sequence) algorithm needed - as the complexity is dependent on the size of array and gap
